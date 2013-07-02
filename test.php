@@ -18,7 +18,6 @@
 
 </head>
 <?php
-hello
 
 require_once ('./includes/mysql_connection.php');
 require_once ('./functions/general_functions.php');
