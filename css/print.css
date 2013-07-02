@@ -1,0 +1,27 @@
+header,
+div.bread,
+footer,
+aside ul,
+aside h2,
+div.social,
+.no_print{
+	display:none;
+}
+
+
+
+html,
+body,
+article,
+h1,
+.print{
+	display:block;
+}
+
+body { 
+	font-family: Georgia, "Times New Roman", Times, serif;  
+	font-size: 14px;  
+	color: #000000;  
+	background-color: #FFFFFF;  
+} 
+
