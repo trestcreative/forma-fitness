@@ -18,7 +18,7 @@
 
 </head>
 <?php
-//Alex Git
+hello
 
 require_once ('./includes/mysql_connection.php');
 require_once ('./functions/general_functions.php');
