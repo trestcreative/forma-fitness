@@ -8,8 +8,15 @@ ini_set("error_log", "./admin/core/php-error.log");
  *	This page includes the configuration file, 
  *	the templates, and any content-specific modules.
  */
+if(!isset($_SESSION['username']) && (!isset($_SESSION['a_level']))){
 
-				/* header('Location: holding.php');	 */
+header('Location: holding.php');
+}
+if(isset($_SESSION['a_level'])){
+	if($_SESSION['a_level'] < 3){
+		header('Location: holding.php');
+	}
+}
 //Connect to database
 require_once ('./includes/mysql_connection.php');
 
