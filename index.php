@@ -1,4 +1,5 @@
 <?php # index.php
+//Test
 session_start();
 ob_start();
 ini_set("log_errors", 1);
